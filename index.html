@@ -214,15 +214,15 @@
     }
    
     @media only screen and (max-width: 450px){
+      body{
+        width: 100%;
+      }
 
   .container{
     display: grid;
     text-align: center;
     margin-left: 0px;
   }
-  /* nav ul {
-    flex-direction: column;
-  } */
   nav ul li {
     margin: 10px;
   }
@@ -260,10 +260,11 @@
  .second h1 {
     font-size: 1.5rem;
   }
- .box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 200vh;
+ .second .box {
+  width: 96vw;
+  }
+  .second .vertical{
+    margin: 0 114px 0px 34px;
   }
  
   .vertical2{
@@ -273,14 +274,14 @@
   display: none;
   }
  .vertical-title {
-    font-size: 16px;
+    font-size: 12px;
     top: 100px;
-    left: -125px;
+    /* left: -125px; */
   }
  .vertical-text {
-    font-size: 14px;
+    font-size: 11px;
     top: 110px;
-    left: -115px;
+    left: -118px;
   }
   
   hr{
@@ -294,18 +295,21 @@
  .footer-flex {
   /* display: grid; */
   margin-top: 400px;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 15px;
 
   }
  .footer-first {
     margin-bottom: 20px;
+    margin: auto;
   }
  .footer-second ul {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
  .footer-second ul li {
     margin-bottom: 10px;
-    margin-left: 0px;
+    margin: auto;
   }
  .copyright {
     font-size: 14px;
@@ -361,7 +365,7 @@
                 Roles & Responsiblity
               </li>
               <ul>
-                <li> Finalizing of Accounts of Firms & Companies. </li>
+                <li> Finalizing of Accounts of <br>Firms & Companies. </li>
                 <li>GST Filings</li>
                 <li>Creating Balancesheets</li>
                 <li> Well Known of Income tax Website</li>
@@ -379,9 +383,9 @@
                 Roles & Responsiblity
               </li>
               <ul>
-                <li>Finalizing of Accounts of Firms, Companies & Individuals.</li>
-                <li> Maintaining Sale, Purchase, Bank & Cash.</li>
-                <li>Well Known of Income tax Website.</li>
+                <li>Finalizing of Accounts of <br> Firms, Companies & Individuals.</li>
+                <li> Maintaining Sale,<br> Purchase, Bank & Cash.</li>
+                <li>Well Known of <br> Income tax Website.</li>
                 <li>GST Fillings.</li>
               </ul>
             </ol>

@@ -112,15 +112,17 @@
       margin-top: -165px;
       margin-left: 540px;
     }
-    .skills-list{
+
+    .skills-list {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 10px;
       padding: 10px;
       margin-top: 10px;
-    
+
     }
+
     .skill-item {
       background-color: #fff;
       border: 1px solid #ddd;
@@ -128,64 +130,99 @@
       padding: 5px 10px;
       margin: 5px;
     }
-    .skill-item:hover{
-      
+
+    .skill-item:hover {
+
       border: 1px solid #0f0000;
       /* border-radius: 5.3px;
       padding: 5.3px 10.5px;
       margin: 5.5px; */
     }
-    .experience-box li{
+
+    .experience-box li {
       text-align: start;
       padding: 5px;
     }
+
     .experience-box li a {
       text-decoration: none;
       color: black;
     }
+
     .experience-box li a:hover {
-      text-decoration: underline ;
+      text-decoration: underline;
     }
-    @media only screen and (max-width: 450px) {
 
-.container{
-  display: grid;
-  text-align: center;
-  /* margin-left: 0px; */
-  height: auto;
-}
-nav ul li {
-  margin: 10px;
-}
-nav ul li a {
-  font-size: 16px;
-}
-.footer-flex {
-  justify-content: space-around;
-  width: auto;
-  height: auto;
+    @media only screen and (max-width: 451px) {
+      *{
+        margin: 0;
+        font-size: 15px;
+        /* padding: 0; */
+      }
 
-  }
- .footer-first {
-    margin-bottom: 20px;
-  }
- .footer-second ul {
-    margin-left: 20px;
-  }
- .footer-second ul li {
-    margin-bottom: 10px;
-    margin-left: 0px;
-  }
- .copyright {
-    font-size: 14px;
-  }
-  .box{
-    display: grid;
-    height: auto;
-  }
-  
-        }
+      .container {
+        display: grid;
+        text-align: center;
+        /* margin-left: 0px; */
+        height: auto;
+      }
 
+      nav ul li {
+        margin: 10px;
+      }
+
+      nav ul li a {
+        font-size: 16px;
+      }
+      .skill-box{
+        padding: 0;
+      }
+
+      .footer-flex {
+        justify-content: space-around;
+        width: auto;
+        height: auto;
+
+      }
+
+      .footer-first {
+        margin-bottom: 20px;
+      }
+
+      .footer-second ul {
+        margin-left: 20px;
+      }
+
+      .footer-second ul li {
+        margin-bottom: 10px;
+        margin-left: 0px;
+      }
+
+      .copyright {
+        font-size: 14px;
+      }
+
+      .box {
+        flex-direction: column;
+        height: auto;
+      }
+      .experience-box{
+        padding: 0;
+      }
+
+      .experience-box li {
+        text-align: center;
+      }
+
+      .line {
+
+        height: 0px;
+        width: 1px;
+        margin-top: 0px;
+        margin-left: 0px;
+      }
+
+    }
   </style>
 </head>
 
@@ -195,7 +232,7 @@ nav ul li a {
       <div class="left"> Siddharth Sharma's Portfolio</div>
       <div class="right">
         <ul>
-          
+
           <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About</a></li>
           <li><a href="./contact.html">Contact</a></li>
@@ -217,8 +254,8 @@ nav ul li a {
   </section>
   <main class="box">
     <div class="experience-box">
-      Projects
-      <hr>
+      <u>Projects</u>
+      <!-- <hr style="display: none;"> -->
       <div>
         <ul>
           <li><a href="./index.html"> PortFolio Website </a></li>
@@ -231,21 +268,21 @@ nav ul li a {
 
       <u>Skills</u>
       <hr>
-      
+
       <div class="skills-list">
-        
-            <div class="skill-item">HTML5</div>
-            <div class="skill-item">CSS</div>
-            <div class="skill-item">BOOTSTRAP</div>
-            <div class="skill-item">JAVASCRIPT</div>
-            <div class="skill-item">REACT.JS</div>
-            <div class="skill-item">JQUERY</div>
-            <div class="skill-item">GIT & GITHUB</div>
-            <div class="skill-item">MS EXCEL</div>
-            <div class="skill-item">MS WORD</div>
-            <div class="skill-item">MS POWERPOINT</div>
-            <div class="skill-item">TALLY</div>
-          
+
+        <div class="skill-item">HTML5</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">BOOTSTRAP</div>
+        <div class="skill-item">JAVASCRIPT</div>
+        <div class="skill-item">REACT.JS</div>
+        <div class="skill-item">JQUERY</div>
+        <div class="skill-item">GIT & GITHUB</div>
+        <div class="skill-item">MS EXCEL</div>
+        <div class="skill-item">MS WORD</div>
+        <div class="skill-item">MS POWERPOINT</div>
+        <div class="skill-item">TALLY</div>
+
       </div>
     </div>
 
